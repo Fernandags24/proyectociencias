@@ -1,0 +1,146 @@
+body{ 
+background-size: 100% ,100% ;
+ }
+.navegacion{
+	width: 1000px;
+	margin: 20px;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+    /*position: relative;*/
+	display: inline-block;
+}
+.menu > li >a {
+	display: block;
+	padding: 30px 30px;
+	color: #000000;
+	font-family:´open sans´;
+	text-decoration: none; 
+	font-size:2em;
+}
+.diseño{
+	border: solid 3px #FE0F00;
+	background: #FFD917;
+	display: block;
+	padding: 5px 5px;
+	color: #000000;
+	font-family:´open sans´;
+	text-decoration: none; 
+	font-size:1em;
+}
+.diseñ{
+	border: solid 2px #FE0F00;
+	background: #FFD917;
+	display: block;
+	padding: 5px 5px;
+	color: #000000;
+	font-family:´open sans´;
+	text-decoration: none; 
+	font-size:1em;
+}
+.dise{
+	border: solid 2px #FE0F00;
+	background: #FFD917;
+}
+.dis{
+	border: solid 2px #FE0F00;
+	background: #FFD917;
+	display: block;
+	padding: 5px 5px;
+	color: #000000;
+	font-family:´open sans´;
+	text-decoration: none; 
+	font-size:1em;
+}
+.menu li a: hover {
+	color: #CE7D35;
+}
+/*submenu */
+ .submenu{ 
+ position: absolute;
+ background:#FFF301;
+ border: solid 2px #000000;
+ display: none;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: ´open sans´;
+	text-decoration: none; 
+}
+.menu li:hover .submenu{
+	display:inline-block;
+}
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+.hache{
+	text-align: center;
+	background:#01BAE3;
+	border: solid 2px #000000;
+	margin: 5px;
+	font-size: 4em;
+}
+.ejemplouno{
+	text-align: center;
+	background:#01BAE3;
+	border: solid 2px #000000;
+	margin: 2px;
+	font-size: 1em;
+}
+.subtitulo{
+ text-align: center;
+ color: #FE0000;
+}
+.texto{text-align: center;
+	background:#01BAE3;
+	border: solid 2px #000000;
+	margin: 2px;
+	font-size: 1em;
+}
+.derechos {
+	text-align: center;
+ color: #000000;
+ font-size: 2em;
+}
+.disco{
+text-align: center;
+	background:#FEE700;
+	border: solid 2px #000000;
+	margin: 2px;
+	font-size: 2em;
+}
+.parrafo{
+	text-align: center;
+ color: #FE0000;
+ font-size: 1em;
+}
+.ejemplodos{
+	text-align: center;
+	background:#FEE700;
+	border: solid 2px #000000;
+	margin: 2px;
+	font-size: 1em;
+}
+.prevenir{
+	text-align: center;
+	background:#FEE700;
+	border: solid 2px #000000;
+	margin: 2px;
+	font-size: 1em;
+}
+.preveni{
+	text-align: center;
+	background:#FE00F7;
+	border: solid 2px #000000;
+	margin: 2px;
+	font-size: 1em;
+}
+.comentario{
+	font-size: 2em;
+	color: #FE0000;
+}
